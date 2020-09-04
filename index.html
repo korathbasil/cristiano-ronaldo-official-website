@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Cristiano Ronaldo Official Website</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="logoContainer">
+        <h1 class="logoText">CRISTIANO RONALDO</h1>
+      </div>
+      <nav class="navigation">
+        <ul>
+          <li class="navItem"><a href="#">CR7</a></li>
+          <li class="navItem"><a href="#">18/19 HIGHLIGHTS</a></li>
+          <li class="navItem"><a href="#">#PLAYITCOOL</a></li>
+          <li class="navItem"><a href="#">NEWSLETTER</a></li>
+          <li class="navItem"><a href="#">PARTNERS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="hero">
+      <div class="hero__videoCard">
+        <video
+          class="hero__video"
+          src="./videos/highlights_portugal.mp4"
+          autoplay
+          loop
+        ></video>
+      </div>
+      <div class="hero__imageCard">
+        <img class="hero__image" src="./images/brand_eyewear.jpg" alt="" />
+      </div>
+      <div class="hero__imageCard">
+        <img class="hero__image" src="./images/brand_footwear.jpg" alt="" />
+      </div>
+      <div class="hero__imageCard">
+        <img class="hero__image" src="./images/brand_underwear.jpg" alt="" />
+      </div>
+      <div class="hero__imageCard">
+        <img class="hero__image" src="./images/brand_denim.jpg" alt="" />
+      </div>
+      <div class="hero__imageCard">
+        <img class="hero__image" src="./images/brand_fragrances.jpg" alt="" />
+      </div>
+    </div>
+    <div class="highlights"></div>
+    <div class="playItCool">
+      <video src="./videos/cr7_playitcool.mp4" class="playItCoolVideo"></video>
+      <h2 class="playItCoolText">#PLAYITCOOL</h2>
+    </div>
+    <div class="newsletter">
+      <div class="newsletter__body">
+        <h2>STAY TUNED</h2>
+        <div class="newsletter__textPolicyContainer">
+          <p>
+            Subscribe my newsletter and don’t miss any update on new products,
+            promotions or even career events.
+          </p>
+          <div class="newsletter__policy">
+            <input type="checkbox" />
+            <p>I read and accept the <a href="#">Privacy Policy</a></p>
+          </div>
+        </div>
+        <form action="">
+          <input type="email" class="emailInput" />
+          <button type="submit" class="submitButton">
+            SUBSCRIBE TO NEWSLETTER
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  font-family: sans-serif;
+}
+h1,
+h2,
+h3,
+p,
+li {
+  color: white;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logoText {
+  color: white;
+  font-size: 28px;
+  margin-left: 60px;
+  font-family: "Fjalla One", sans-serif;
+}
+.navigation > ul {
+  display: flex;
+  align-items: center;
+}
+.navItem {
+  list-style: none;
+}
+.navItem > a:link,
+a:visited {
+  color: white;
+  letter-spacing: 4px;
+  margin: 0 20px;
+  opacity: 0.6;
+  text-decoration: none;
+}
+.navItem > a:hover {
+  opacity: 1;
+}
+.navItem > a:active {
+  text-decoration: line-through;
+}
+
+.hero {
+  /* background-color: blueviolet; */
+  width: 98%;
+  height: calc(100vh - 140px);
+  margin: 0 auto;
+  display: flex;
+}
+.hero__videoCard {
+  /* background-color: cadetblue; */
+  overflow: hidden;
+  width: 25%;
+  height: 100%;
+}
+.hero__video {
+  width: 100%;
+}
+.hero__imageCard {
+  width: 15%;
+  height: 100%;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  /* background-color: chartreuse; */
+  margin-left: 10px;
+}
+.hero__image {
+  height: 100%;
+}
+.playItCool {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.playItCoolVideo {
+  width: 100%;
+}
+.playItCoolText {
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  color: orangered;
+  font-weight: 600;
+}
+
+.newsletter {
+  width: 100%;
+  height: 800px;
+  display: grid;
+  place-items: center;
+  /* background-color: orchid; */
+}
+.newsletter__body {
+  padding: 100px;
+  height: 600px;
+  width: 60%;
+  background-color: #0b0b0b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.newsletter__policy {
+  display: flex;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.emailInput,
+.submitButton {
+  width: 450px;
+  height: 60px;
+
+  border-radius: 90px;
+}
+.emailInput {
+  margin-bottom: 10px;
+  background-color: #151515;
+  border: 2px solid white;
+}
+.submitButton {
+  background-color: #f54f00;
+  border: 2px solid #f54f00;
+  color: white;
+}
