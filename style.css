@@ -53,9 +53,10 @@ a:visited {
 }
 
 .hero {
+  margin: 70px 0;
   /* background-color: blueviolet; */
   width: 98%;
-  height: calc(100vh - 140px);
+  height: calc(100vh - 100px);
   margin: 0 auto;
   display: flex;
 }
@@ -80,6 +81,47 @@ a:visited {
 .hero__image {
   height: 100%;
 }
+
+.highlights {
+  width: 100%;
+  height: fit-content;
+  /* height: 700px; */
+  position: relative;
+  display: flex;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+}
+.highlights::-webkit-scrollbar {
+  display: none;
+}
+.highlights__header {
+  position: sticky;
+  top: 250px;
+  left: 5%;
+  color: orangered;
+  font-weight: 800;
+}
+.videoPlayer {
+  z-index: -1;
+  scroll-snap-align: start;
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+.highlights__video {
+  width: 100%;
+}
+.highlightDate {
+  position: absolute;
+  top: 18%;
+  left: 5%;
+}
+.videoInfo {
+  position: absolute;
+  bottom: 250px;
+  left: 5%;
+}
+
 .playItCool {
   overflow: hidden;
   width: 100%;
