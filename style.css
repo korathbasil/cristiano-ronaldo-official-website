@@ -66,6 +66,11 @@ a:visited {
   width: 25%;
   height: 100%;
   transition: width 0.3s ease-in;
+  filter: grayscale(1);
+}
+.hero__videoCard:hover {
+  animation: colorise 0.3s ease-in;
+  filter: grayscale(0);
 }
 .hero__video {
   height: 100%;
@@ -201,6 +206,14 @@ form {
   background-color: #f54f00;
   border: 2px solid #f54f00;
   color: white;
+}
+
+.partners {
+  display: grid;
+  place-items: center;
+}
+.partnersContents {
+  height: 900px;
 }
 
 .footer {
